@@ -45,7 +45,7 @@ public class JavaCodeScanner2 extends RuleBasedScanner {
 	 * @param provider the color provider
 	 */
 	public JavaCodeScanner2(JavaColorProvider provider) {
-
+		// changed by feature brnch
 		IToken keyword= new Token(new TextAttribute(provider.getColor(JavaColorProvider.KEYWORD)));
 		IToken type= new Token(new TextAttribute(provider.getColor(JavaColorProvider.TYPE)));
 		IToken string= new Token(new TextAttribute(provider.getColor(JavaColorProvider.STRING)));
